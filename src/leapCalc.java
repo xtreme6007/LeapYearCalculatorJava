@@ -9,16 +9,18 @@ public class leapCalc {
                 if (Even100 == 0) {
                     if(Even400 == 0){
                         return true;
+                    } else{
+                        return false;
                     }
 
+                } else {
+                    return true;
                 }
             }
 
-        } else {
-            return false;
         }
 
-
+    return false;
     }
 
 }
